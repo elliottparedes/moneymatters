@@ -21,14 +21,12 @@ app.use(flash())
 
 app.use(function(req,res, next){
 
-    // make all error and success flass messages available from all templates
+    // make all error and success flash messages available from all templates
     res.locals.errors = req.flash("errors")
     res.locals.success = req.flash("success")
 
     
 
-    // make user session data availabe from within view templates
-    //res.locals.user = req.session.user
     next()
 })
 
