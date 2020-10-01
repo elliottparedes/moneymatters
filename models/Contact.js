@@ -36,10 +36,10 @@ Contact.prototype.send = function()
 
    
     let mailOptions = {
-        from: this.email,
+        from: "contactus@moneymatters.com",
         to: process.env.EMAIL,
         subject: this.subject,
-        text: this.message
+        text:"FROM:" + this.email +" "+ "Message:" + this.message
     
     }
 
