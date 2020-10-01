@@ -1,0 +1,113 @@
+
+  body { 
+    padding-top: 5rem; 
+    
+    font-family: Arial;
+    font-size: 20px;
+   
+}
+
+.textWhite
+{
+  color: white;
+}
+
+.bg-gradient
+{
+  background: rgb(125,79,125);
+  background: linear-gradient(0deg, rgba(125,79,125,1) 55%, rgba(162,199,234,1) 100%);
+}
+
+.bg-greenish
+{
+  background: #519A7D
+}
+
+.bg-bluish
+{
+  background: #77B0e0
+}
+.bg-gold
+{
+  background: #FFBF00
+}
+
+.bg-purpleish
+{
+  background: #E2E2E2
+
+}
+.purpleish
+{
+  background: #E2E2E2
+}
+.black
+{
+  background: #070707
+}
+.steel
+{
+  background: #4A7B9D
+}
+.goGreen
+{
+  background: #0CAC64
+}
+.berry
+{
+  background: #7D4F7D
+}
+
+.blackText
+{
+  color:#070707
+}
+
+a:hover
+{
+  color:#77B0e0;
+  
+  text-decoration: underline;
+}
+
+a 
+{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active 
+{
+  color:#77B0e0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) 
+{
+  #onlyOnLarge {display: none}
+}
+
+
+.fixed
+{
+  position: fixed;
+}
+/* Code below fixes display when jumping to anchor tag. Was being covered by fixed NavBar */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+.abril
+{
+  font-family: 'Abril Fatface', cursive;
+}
+
+.opensans
+{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
