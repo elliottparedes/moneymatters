@@ -1,5 +1,5 @@
 {
-  "name": "moneyMatters",
+  "name": "moneymatters",
   "version": "1.0.0",
   "description": "a full stack project for a website called \"schools-out\" which will teach adults evberything they need to know about \"adulting\" that was not taught.",
   "main": "db.js",
