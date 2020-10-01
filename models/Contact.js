@@ -39,7 +39,7 @@ Contact.prototype.send = function()
         from: "contactus@moneymatters.com",
         to: process.env.EMAIL,
         subject: this.subject,
-        text:"FROM:" + this.email +" "+ "Message:" + this.message
+        text: this.email +" "+ "said " + this.message
     
     }
 
